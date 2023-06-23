@@ -41,7 +41,7 @@ describe('Bloglist app', function() {
 
   describe('When logged in', function() {
     beforeEach(function() {
-      cy.login({ username: 'Tester', password: 'Test'})
+      cy.login({ username: 'Tester', password: 'Test' })
     })
 
     it('A blog can be created', function() {
